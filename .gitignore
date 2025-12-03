@@ -1,0 +1,39 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.env
+.venv/
+venv/
+env/
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.swp
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# OS files
+.DS_Store
+
+# Airflow/log artifacts
+logs/
+airflow.db
+airflow-webserver.pid
+
+# Local data that should stay private
+data/raw/
+data/database/
+
+# Local Airflow config (should not be committed)
+config/airflow.cfg
+
+# Local notebooks
+test.ipynb
+
